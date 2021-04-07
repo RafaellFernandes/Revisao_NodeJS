@@ -1,0 +1,15 @@
+package json - mostra o nome e versao do que esta sendo feito, se é privado ou nao, se vai ser feito algum debug.
+
+bin - www - ele nao tem extendao porq é um arquivo binario. 
+nele é feito : ele avbre o http, debug, start de servidor, cria uma porta para nao dar conflito, 
+faz listen do server, sobe o servidor, gera as mensagens de erro, é onde é feito os testes é um servidor completo.
+
+node modules - é onde estao todas as bibliotecas que estao sendo usadas.
+
+public - é onde estao as imagens publicas que aparecem das views em js ou css.
+
+routes - sao as identificaçoes das rotas para fazer as url amigaveis. 
+
+views - é onde é feito o layout o frontend.
+
+app - é o manager da aplicaçao. 
